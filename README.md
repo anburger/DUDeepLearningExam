@@ -15,7 +15,7 @@ The jupyter notebook `ResNeXt_tests_ABurger.ipynb` loads a pre-trained pytorch m
  - have the pre-trained model classify some random images
  - Test the content of the flower-102 dataset
  - Training of the model on the flowers-102 dataset is performed using the script `GoogleColabNotebook/ResNeXt_TrainOnFlower-102_Data_ABurger.ipynb` on the google colab environment (not in this notebook)
- - The trained models and logs have been saved in `resnext.pytorch/snapshot` and `resnext.pytorch/logs/`. This notebook runs plotting scripts taking the files in `resnext.pytorch/logs/` as input.
+ - The logs of the trained models have been saved in `resnext.pytorch/logs/`. This notebook runs plotting scripts taking the files in `resnext.pytorch/logs/` as input.
  
  
  The jupyter notebook `GoogleColabNotebook/ResNeXt_TrainOnFlower-102_Data_ABurger.ipynb` trains and tests the ResNeXt model using the [flowers-102](https://pytorch.org/vision/main/generated/torchvision.datasets.Flowers102.html) dataset.
