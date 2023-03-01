@@ -5,7 +5,9 @@ The `resnet.pytorch`-directory has been checked out from another gitlab reposito
 
 ============================================
 
-Running the jupyter notebook `ResNeXt_tests_ABurger.ipynb` needs the `TestFigures/`-directory and the `resnext.pytorch`- directory `GoogleColabNotebook/ResNeXt_TrainOnFlower-102_Data_ABurger.ipynb` has been tested on google colab and runs without any local files.
+Running the jupyter notebook `ResNeXt_tests_ABurger.ipynb` needs the `TestFigures/`-directory and the `resnext.pytorch`- directory.
+
+`GoogleColabNotebook/ResNeXt_TrainOnFlower-102_Data_ABurger.ipynb` has been tested on google colab and runs without any local files.
 
 
 ============================================
