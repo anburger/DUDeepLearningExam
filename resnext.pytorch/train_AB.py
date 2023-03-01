@@ -87,7 +87,7 @@ if __name__ == '__main__':
         nlabels = 10
     elif args.dataset == 'flowers-102':
         train_data = dset.Flowers102(root='./data', split='train', download=True, transform=train_transform)
-        test_data = dset.Flowers102(root='./data', split='test', download=True, transform=train_transform
+        test_data = dset.Flowers102(root='./data', split='test', download=True, transform=train_transform)
         nlabels = 102
 	#the test data set in flowers-102 has more events. Run below if want to exchange train and test dataset.
         #train_data = dset.Flowers102(root='./data', split='test', download=True, transform=train_transform)
