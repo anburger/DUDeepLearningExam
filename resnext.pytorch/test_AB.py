@@ -118,6 +118,7 @@ def test():
             pred = output.data.max(1)[1]
             correct += pred.eq(target.data).sum()
             #print("Prediction : {}, target: {}".format(pred,target.data))
+            #print("Correct : {}".format(correct))
 
             # test loss average
             loss_avg += loss.item()
